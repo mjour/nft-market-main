@@ -55,9 +55,9 @@ export const updateWallet = () => async ({ update, getState }) => {
 
 export const token2symbol = {
 	"near": "NEAR",
-	"dai": "DAI",
-	"usdc": "USDC",
-	"usdt": "USDT",
+	// "dai": "DAI",
+	// "usdc": "USDC",
+	// "usdt": "USDT",
 };
 
 const allTokens = Object.keys(token2symbol);
